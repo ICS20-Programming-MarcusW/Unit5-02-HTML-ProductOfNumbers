@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Metadata -->
+    <meta charset="utf-8">
+    <meta name="description" content="For Loops, with JavaScript">
+    <meta name="keywords" content="immaculata, ics2o">
+    <meta name="author" content="Marcus Wehbi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link for favicon -->
+    <link rel="icon" href="./fav_index/favicon.ico">
+    <link rel="manifest" href="./fav_index/site.webmanifest">
+    <!-- Link for stylesheet -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Webpage title -->
+    <title>Product Of Numbers Display</title>
+  </head>
+  <body>
+    <!-- Link for javascript file -->
+    <script src="./js/script.js"></script>
+    <center>
+      <!-- Large header -->
+      <h1>Product Of Numbers Display</h1>
+      <!-- Table to format page (form, image, etc.) -->
+      <table>
+        <tr align = "center">
+          <td valign="top" align="left">
+            <h3>
+            This program will display the product of two numbers, using addition.
+            <h3>
+            <!-- Form to retrieve information (Users two integers of choice) -->
+            <form action="javascript:displayProduct()">						
+              <label for="int-one">Number 1:</label>
+              <input type="number" step="1" id="int-one"><br><br>
+              <label for="int-two">Number 2:</label>
+              <input type="number" step="1" id="int-two"><br><br>
+              <br><br>
+              <input type="submit" value="Display Even #'s">
+            </form>
+          </td>
+          <!-- Product image -->
+          <td valign="top" align="left">
+            <img src="./images/pd.jpg" alt="Product" width="50%">
+          </td>
+        </tr>
+      </table>
+      <!-- Create a space where the user information will be displayed -->
+      <div id="display-results">
+      </div>
+    </center>
+  </body>
+</html>
